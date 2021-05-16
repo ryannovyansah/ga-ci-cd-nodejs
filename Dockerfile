@@ -1,6 +1,6 @@
 FROM node:alpine
 
-LABEL maintainer="Iqbal Syamil <iqbalsyamilayas@gmail.com>"
+LABEL maintainer="Ryan Novyansah <ryannovyansah@gmail.com>"
 
 RUN apk update && apk add ca-certificates && update-ca-certificates
 
